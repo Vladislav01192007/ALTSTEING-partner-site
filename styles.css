@@ -219,3 +219,25 @@ section.visible {
   color: #00d1ff;
   text-decoration: none;
 }
+
+.form-not {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #bbb;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-not a {
+  color: #00d1ff;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.form-not a:hover {
+  color: #009ecb;
+}
+
