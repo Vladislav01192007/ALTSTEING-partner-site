@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
+  // Додатковий виклик при завантаженні
   revealOnScroll();
   window.addEventListener("scroll", revealOnScroll);
 });
